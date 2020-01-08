@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Crime Mapper</string>
+    <string-array name="area_array">
+        <item>city-of-london</item>
+    </string-array>
 </resources>
