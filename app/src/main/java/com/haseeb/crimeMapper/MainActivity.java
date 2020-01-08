@@ -1,10 +1,12 @@
 package com.haseeb.crimeMapper;
 
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 import android.widget.CalendarView;
+
 
 import android.widget.TextView;
 import android.view.Gravity;
@@ -14,6 +16,7 @@ import androidx.appcompat.app.ActionBar;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.Color;
 import android.util.Log;
+
 
 import com.android.volley.AuthFailureError;
 import com.android.volley.NetworkResponse;
@@ -30,7 +33,6 @@ import com.android.volley.Response;
 import com.android.volley.Cache;
 import com.android.volley.toolbox.DiskBasedCache;
 import com.android.volley.Network;
-import com.anychart.core.Chart;
 import com.github.mikephil.charting.charts.LineChart;
 import com.github.mikephil.charting.components.AxisBase;
 import com.github.mikephil.charting.components.Description;
@@ -62,6 +64,7 @@ public class MainActivity extends AppCompatActivity {
     int done = 0;
     int total = 0;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -76,9 +79,11 @@ public class MainActivity extends AppCompatActivity {
         Title.setText("Crime Mapper");
 
         getSupportActionBar().setCustomView(view, params);
+
         getSupportActionBar().setDisplayShowCustomEnabled(true); //show custom title
         getSupportActionBar().setDisplayShowTitleEnabled(false); //hide the default title
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#ffffff")));
+
 
         Spinner spinner = findViewById(R.id.area_spinner);
 
@@ -322,5 +327,6 @@ public class MainActivity extends AppCompatActivity {
         });
         requestQueue.add(jsonArrayRequest);
         return p;
+
     }
 }
