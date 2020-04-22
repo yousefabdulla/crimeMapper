@@ -1,6 +1,7 @@
 package com.haseeb.crimeMapper;
 
 import com.android.volley.AuthFailureError;
+import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.NetworkResponse;
 import com.android.volley.ParseError;
 import com.android.volley.Request;
@@ -59,6 +60,8 @@ public class VolleyMultipartRequest extends Request<NetworkResponse> {
                                   Response.Listener<NetworkResponse> listener,
                                   Response.ErrorListener errorListener) {
         super(method, url, errorListener);
+        setRetryPolicy(new DefaultRetryPolicy(10000,
+                15, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
         this.mListener = listener;
         this.mErrorListener = errorListener;
     }

@@ -1,6 +1,54 @@
 <resources>
     <string name="app_name">Crime Mapper</string>
+    <string-array name="months_array">
+        <item>2020-02</item>
+        <item>2020-01</item>
+        <item>2019-12</item>
+        <item>2019-11</item>
+        <item>2019-10</item>
+        <item>2019-09</item>
+    </string-array>
     <string-array name="area_array">
-        <item>city-of-london</item>
+        <item>City Of London</item>
+        <item>Bedfordshire</item>
+        <item>Berkshire</item>
+        <item>Bristol</item>
+        <item>Buckinghamshire</item>
+        <item>Cambridgeshire</item>
+        <item>Cheshire</item>
+        <item>Cornwall</item>
+        <item>Cumbria</item>
+        <item>Derbyshire</item>
+        <item>Devon</item>
+        <item>Dorset</item>
+        <item>Durham</item>
+        <item>East Sussex</item>
+        <item>East Yorkshire with Hull</item>
+        <item>Gloucestershire</item>
+        <item>Greater London</item>
+        <item>Greater Manchester</item>
+        <item>Herefordshire</item>
+        <item>Hertfordshire</item>
+        <item>Isle of Wight</item>
+        <item>Leicestershire</item>
+        <item>Lincolnshire</item>
+        <item>Norfolk</item>
+        <item>North Yorkshire</item>
+        <item>Northamptonshire</item>
+        <item>Northumberland</item>
+        <item>Nottinghamshire</item>
+        <item>Oxfordshire</item>
+        <item>Rutland</item>
+        <item>Shropshire</item>
+        <item>Somerset</item>
+        <item>Staffordshire</item>
+        <item>Suffolk</item>
+        <item>Surrey</item>
+        <item>Warwickshire</item>
+        <item>West Sussex</item>
+        <item>Wiltshire</item>
+        <item>Worcestershire</item>
+
+
     </string-array>
 </resources>
